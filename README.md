@@ -2,7 +2,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat)](https://github.com/RichardLitt/standard-readme)
 
-[![Snap Status](https://build.snapcraft.io/badge/elopio/bibfortuna-zosbot.svg)](https://build.snapcraft.io/user/elopio/bibfortuna-zosbot)
+[![Snap Status](https://build.snapcraft.io/badge/elopio/zos-bot.svg)](https://build.snapcraft.io/user/elopio/zos-bot)
 
 Chat bot for ZeppelinOS.
 
