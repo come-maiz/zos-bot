@@ -18,4 +18,4 @@ CORE_PLUGINS = ()
 BOT_DATA_DIR = os.environ.get('SNAP_USER_DATA')
 BOT_EXTRA_PLUGIN_DIR = os.path.join(os.environ.get('SNAP'), 'plugins')
 BOT_EXTRA_BACKEND_DIR = os.path.join(os.environ.get('SNAP'), 'backends')
-BOT_LOG_FILE = os.path.join(BOT_DATA_DIR, 'err.log'
+BOT_LOG_FILE = os.path.join(BOT_DATA_DIR, 'err.log')
