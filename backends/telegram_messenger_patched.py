@@ -324,4 +324,4 @@ class TelegramPatchedBackend(ErrBot):
 
     def delete_message(self, message):
         self.telegram.deleteMessage(
-            message.frm.room.id, message.extras.message_id)
+            message.frm.room.id, message.extras['message_id'])

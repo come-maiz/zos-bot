@@ -11,6 +11,6 @@ class DeleteJoinMessages(BotPlugin):
     def callback_message(self, message):
         if (hasattr(message.to, 'id') and
                 message.to.id == self._TELEGRAM_CHAT_ID_ZEPPELINOS):
-            if message.body is None:
-                if message.extras and message.extras.new_chat_members:
-                    self.delete_message(message)
+            if message.body == '':
+                if message.extras and message.extras['new_chat_members']:
+                    self._bot.delete_message(message)
