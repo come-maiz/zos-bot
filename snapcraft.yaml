@@ -1,0 +1,23 @@
+name: bibfortuna-zosbot
+version: '0.1-dev'
+summary: ZeppelinOS butler bot
+description: ZeppelinOS butler bot
+grade: stable
+confinement: strict
+
+apps:
+  bibfortuna-zosbot:
+    command: env LC_ALL=C.UTF-8 errbot -c $SNAP/config.py
+    plugs: [home, network, network-bind]
+
+parts:
+  errbot:
+    plugin: python
+    python-packages: [errbot, python-telegram-bot]
+  bibfortuna:
+    source: .
+    plugin: dump
+    stage:
+      - config.py
+      - plugins
+    after: [errbot]

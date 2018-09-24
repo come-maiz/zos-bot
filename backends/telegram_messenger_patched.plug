@@ -1,0 +1,6 @@
+[Core]
+Name = TelegramPatched
+Module = telegram_messenger_patched
+
+[Documentation]
+Description = Telegram backend patched

@@ -1,0 +1,9 @@
+[Core]
+Name = Delete Join Messages
+Module = deletejoinmessages
+
+[Documentation]
+Description = Plugin to delete Telegram join messages.
+
+[Python]
+Version = 2+
