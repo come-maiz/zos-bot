@@ -6,7 +6,7 @@
 
 Chat bot for ZeppelinOS.
 
-Also know as Bib Fortuna.
+Also known as Bib Fortuna.
 
 ## Install
 
