@@ -20,4 +20,5 @@ parts:
     stage:
       - config.py
       - plugins
+      - backends
     after: [errbot]
