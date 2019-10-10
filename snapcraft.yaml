@@ -14,7 +14,7 @@ parts:
   errbot:
     plugin: python
     python-packages: [errbot, python-telegram-bot]
-    build-packages: [libssl-dev]
+    build-packages: [libssl-dev, libffi-dev]
   bibfortuna:
     source: .
     plugin: dump
